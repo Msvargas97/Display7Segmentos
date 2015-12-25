@@ -1,0 +1,231 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019     @INTERRUPT_AREA
+01A     @INTERRUPT_AREA
+01B-01E timer0_overflow_count
+01F-022 millis.m
+023-024 strtok.save
+025-028 _Randseed
+029.0   D7Seg
+029.1   q
+029.2   displayMux.signo
+029.3   displayMux.limit
+02A-02D val
+02E-02F num
+030-033 displayMux.digito
+034     displayMux.size
+035     displayMux.max
+036-039 displayMux.temp
+03A-03B displayMux.i
+03C-03D displayMux.j
+03E-03F displayMux.decimal
+040-041 displayMux.dec
+042-045 displayMux.numero
+042-045 atan2.y
+046-047 displayMux.time
+046-049 atan2.x
+048     displayMux.precision
+049-04C @FTOSD.P1
+049-04C @DTOF.P2
+049-04C @SFTOI.P3
+049     @delay_ms1.P4
+049-04C @SDTOF.P5
+049     @MEMSET.P6
+049-04C @MULFF.P7
+049-04A @ITOF.P8
+049     displayMux.@SCRATCH1
+04A-04D atan2.z
+04A-04B @MEMSET.P1
+04A     displayMux.@SCRATCH2
+04B-04C @DIV1616.P1
+04B     @WRITEBITA.P2
+04B     displayMux.@SCRATCH3
+04C     @WRITEBITA.P1
+04C     displayMux.@SCRATCH4
+04D-050 @ADDFF.P1
+04D-050 @FLT.P2
+04D-04E @DIV1616.P3
+04D-04E @WRITEBITA.P4
+04D-050 @MUL3232.P5
+04D-050 @MULFF.P6
+04D     displayMux.@SCRATCH5
+04D     @FTOSD.@SCRATCH1
+04D     @SDTOF.@SCRATCH1
+04E.0   atan2.sign
+04E     displayMux.@SCRATCH6
+04F     atan2.quad
+04F     @DIV1616.@SCRATCH1
+04F     displayMux.@SCRATCH7
+050     displayMux.@SCRATCH8
+051-054 @ADDFF.P1
+051-054 @FLT.P2
+051-054 @DIVS3232.P3
+051-054 @DIV3232.P4
+051-054 @MUL3232.P5
+051     @MULFF.@SCRATCH1
+052     @MULFF.@SCRATCH2
+053     @MULFF.@SCRATCH3
+055-058 @DIV3232.P1
+055-058 @DIVS3232.P2
+055     @MUL3232.@SCRATCH1
+055     @FLT.@SCRATCH1
+055     @ADDFF.@SCRATCH1
+056     @MUL3232.@SCRATCH2
+056     @FLT.@SCRATCH2
+056     @ADDFF.@SCRATCH2
+057     @MUL3232.@SCRATCH3
+057     @ADDFF.@SCRATCH3
+058     @MUL3232.@SCRATCH4
+058     @ADDFF.@SCRATCH4
+059     @MUL3232.@SCRATCH5
+059     @ADDFF.@SCRATCH5
+059     @DIVS3232.@SCRATCH1
+059     @DIV3232.@SCRATCH1
+05A     @MUL3232.@SCRATCH6
+05A     @ADDFF.@SCRATCH6
+05A     @DIVS3232.@SCRATCH2
+05A     @DIV3232.@SCRATCH2
+05B     @ADDFF.@SCRATCH7
+05B     @DIVS3232.@SCRATCH3
+05B     @DIV3232.@SCRATCH3
+05C     @ADDFF.@SCRATCH8
+05C     @DIVS3232.@SCRATCH4
+05C     @DIV3232.@SCRATCH4
+05D     @DIVS3232.@SCRATCH5
+05D     @DIV3232.@SCRATCH5
+05E     @DIVS3232.@SCRATCH6
+F01     CCP_10_LOW
+F01     CCP_10
+F02     CCP_10_HIGH
+F04     CCP_9
+F04     CCP_9_LOW
+F05     CCP_9_HIGH
+F07     CCP_8
+F07     CCP_8_LOW
+F08     CCP_8_HIGH
+F0A     CCP_7_LOW
+F0A     CCP_7
+F0B     CCP_7_HIGH
+F0D     CCP_6
+F0D     CCP_6_LOW
+F0E     CCP_6_HIGH
+F10     CCP_5
+F10     CCP_5_LOW
+F11     CCP_5_HIGH
+F13     CCP_4
+F13     CCP_4_LOW
+F14     CCP_4_HIGH
+F16     CCP_3_LOW
+F16     CCP_3
+F17     CCP_3_HIGH
+F70.0   C1OUT
+F70.1   C2OUT
+F70.2   C3OUT
+F9B.6   PLLEN
+FB5     CCP_2
+FB5     CCP_2_LOW
+FB6     CCP_2_HIGH
+FBB     CCP_1_LOW
+FBB     CCP_1
+FBC     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FE9-FEA @MEMSET.P5
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0018C2  @delay_ms1
+0014BE  @DIV1616
+001884  @WRITEBITA
+001222  @MUL3232
+001134  TIMER0_isr
+0011AC  @FLT
+0013F6  @SFTOI
+0015E4  @ITOF
+001304  @MULFF
+00161A  @ADDFF
+001500  @DIVS3232
+0010BE  transistorPins
+0010DA  Tabla7seg
+0023A8  MAIN
+0010F8  powersOf10
+0018EA  displayMux
+001152  @MEMSET
+00116E  @FTOSD
+001278  @SDTOF
+0012D0  @DTOF
+00142E  @DIV3232
+0023A8  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    M:\PIC Projects\Display7Segmentos\
+
+Project Files:
+    Plantilla.c                                             [11-dic.-15 22:33  CRC=23A63C33]
+    EMm47J53_StackConfig.h                                  [10-dic.-15 14:35  CRC=6F2E1269]
+    C:\Program Files\PICC\devices\18F47J53.h                [13-abr.-11 15:02  CRC=1DEA3C7C]
+    C:\Program Files\PICC\drivers\math.h                    [11-abr.-11 09:02  CRC=A2852B04]
+    C:\Program Files\PICC\drivers\stdlib.h                  [22-abr.-10 10:12  CRC=97EC02E8]
+    C:\Program Files\PICC\drivers\stddef.h                  [16-jul.-10 09:27  CRC=897CEC6C]
+    C:\Program Files\PICC\drivers\string.h                  [18-jun.-08 10:48  CRC=9BE6227E]
+    C:\Program Files\PICC\drivers\ctype.h                   [03-ene.-08 13:55  CRC=2D1F019F]
+
+Source signature=6AD0CB2C
+
+Units:
+    M:\PIC Projects\Display7Segmentos\Plantilla (main)
+
+Compiler Settings:
+    Processor:      PIC18F47J53
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      Plantilla.err
+    Ext Symbols: Plantilla.esym
+    INHX32:      Plantilla.hex
+    Symbols:     Plantilla.sym
+    List:        Plantilla.lst
+    Debug/COFF:  Plantilla.cof
+    Project:     Plantilla.PJT
+    Call Tree:   Plantilla.tre
+    Statistics:  Plantilla.STA

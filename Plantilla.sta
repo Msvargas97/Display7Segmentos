@@ -1,0 +1,71 @@
+
+ROM used: 5292 (4%)
+          5296 (4%) including unused fragments
+
+          1 Average locations per line
+          6 Average locations per statement
+
+RAM used: 66 (2%) at main() level
+          95 (3%) worst case
+
+Stack used: 3 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  154    72   9  Plantilla.c
+  641    14   2  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files\PICC\devices\18F47J53.h
+ 2220   257  31  C:\Program Files\PICC\drivers\math.h
+ 1273   359  44  C:\Program Files\PICC\drivers\stdlib.h
+   32     0   0  C:\Program Files\PICC\drivers\stddef.h
+  409   121  15  C:\Program Files\PICC\drivers\string.h
+   28     0   0  C:\Program Files\PICC\drivers\ctype.h
+----- -----
+ 5461   823 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   0   1             @delay_ms1
+0     66   1   5             @DIV1616
+0     62   1   6             @WRITEBITA
+0     86   1  14             @MUL3232
+0     30   0   0    81  0.0  TIMER0_isr
+0    118   1  10             @FLT
+0     56   1   4             @SFTOI
+0     54   1   2             @ITOF
+0    242   2  11             @MULFF
+0    618   6  16             @ADDFF
+0    228   2  14             @DIVS3232
+0     28   0   0   267  4.6  @const516
+0     30   0   0  1634 14.3  @const518
+0    264   2   0   277  4.8  MAIN
+0     60   1   0  3491 14.4  @const539
+0   2750  26  15  4673 15.8  displayMux
+0     28   0   0   194  4.3  @MEMSET
+0     62   1   5   153  3.8  @FTOSD
+0     88   1   5             @SDTOF
+0     52   0   4             @DTOF
+0    144   1  13             @DIV3232
+
+Program metrics:
+    Functions               8
+    Statements              823
+    Comments                1281
+    Volume (V)              14971
+    Difficilty (D)          35.0
+    Effort to implement (E) 524352
+    Time to implement (T)   8 hours, 6 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   34
+    Maintainability (MI)    90
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-010BC   182  0  
+010BE-0FFFE  5106  56144  
+10000-1FFF6     0  65528  
+
+
+
